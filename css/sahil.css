@@ -1,0 +1,167 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+/* HTML Reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../fonts/MyriadPro-Regular.otf");
+}
+@font-face {
+    font-family: "MyriadPro";
+    src: url("../fonts/MyriadPro-Bold.otf");
+    font-weight: bold;
+}
+@font-face {
+    font-family: "MyriadPro";
+    src: url("fonts/MyriadPro-It.otf");
+    font-style: italic;
+}
+
+a:hover{
+	text-decoration:none;}
+
+/*My CSS*/
+body{
+	font-family: 'MyriadPro', sans-serif;
+	background:#28689a;}
+
+
+.relative{
+	position:relative;}
+
+
+.main-otr{
+	max-width:980px;
+	background:#fff;
+	margin:0 auto;}
+
+.logo{
+	background:url(../img/logo.png);
+	width:250px;
+	height:62px;
+	display:inline-block;
+	margin:42px 0 33px 12px}
+
+.in-up{
+	margin: 15px 19px 0 0; }
+.in-up a{
+	color:#2169a2;}	
+
+	
+.i-soc{
+	float:right;
+	margin-left:4px;
+	width:26px;
+	height:27px;}
+
+.i-4{
+	background:url(../img/sprite.png) -45px -5px;}
+	
+.i-3{
+	background:url(../img/sprite.png) -77px -5px;}
+	
+.i-2{
+	background:url(../img/sprite.png) -107px -5px;}
+	
+.i-1{
+	background:url(../img/sprite.png) -136px -5px;}
+
+.up{
+	float:right;
+	padding:0 15px;
+	margin-top:7px;}
+	
+.in{
+	float:right;
+	padding:0 15px;
+	margin-top:7px;
+	border-right:1px solid #2169a2;}
+
+.header .search{
+	position:relative;
+	float:right;
+	margin:34px 15px 0 0;}
+	
+.header .search input{
+	font-size:11px;
+	line-height:11px;
+	padding: 4px 31px 4px 10px;
+	margin:0;
+	min-width:220px;
+	background:#fafafa;}
+	
+
+
+.i-search{
+	position:absolute;
+	display:block;
+	top:7px;
+	right:8px;
+	width:14px;
+	height:15px;
+	background:url(../img/sprite.png) 0 -45px;}
+	
+.cu2{
+	float:right;
+	margin: 19px 13px 0 0;}
+.cu2 .num{
+	font-size:23px;
+	font-weight:bold;
+	color:#2169a2;}
+.cu2 .txt{
+	font-size:18px;
+	color:#4d4d4d;}
+
+
+.cu2 .i-phone{
+	float:right;
+	display:inline-block;
+	width:42px;
+	height:43px;
+	background:url(../img/sprite.png) -169px 0;
+	margin: 0 8px 0 0;}
